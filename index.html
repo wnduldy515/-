@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>❤️</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- 상단 -->
+        <header>
+            <div>
+                <h1>채팅</h1>
+                <p>이야기해보세요</p>
+            </div>
+        </header>
+
+        <!-- 채팅방 목록 -->
+        <main>
+
+            <div class="section-title">
+                채팅
+            </div>
+
+            <div class="chat-list">
+
+                <div class="chat-room" onclick="openChat('우리반 전체 채팅')">
+                    <div class="profile">👥</div>
+
+                    <div class="chat-info">
+                        <h2>우리반 전체 채팅</h2>
+                        <p>우리 반 친구들과 이야기하기</p>
+                    </div>
+
+                    <div class="arrow">›</div>
+                </div>
+
+            </div>
+
+        </main>
+
+        <!-- 하단 메뉴 -->
+        <nav class="bottom-nav">
+
+            <button class="nav-item active">
+                <span>💬</span>
+                <small>채팅</small>
+            </button>
+
+            <button class="nav-item">
+                <span>👤</span>
+                <small>친구</small>
+            </button>
+
+            <button class="nav-item">
+                <span>⚙️</span>
+                <small>설정</small>
+            </button>
+
+        </nav>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
